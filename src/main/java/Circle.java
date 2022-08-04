@@ -3,4 +3,9 @@ public class Circle extends Shape {
         return "Circle";
     }
 
+    @Override
+    public void printT() {
+        System.out.println("The name of the geometric shape is " + getName());
+    }
+
 }
